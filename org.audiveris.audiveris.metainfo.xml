@@ -46,6 +46,28 @@
   <launchable type="desktop-id">org.audiveris.audiveris.desktop</launchable>
   <developer_name>Hervé Bitteur et al.</developer_name>
   <releases>
+    <release version="5.4-alpha" date="2023-11-21" urgency="low"
+	     type="stable">
+      <description>
+	<ul>
+	  <li>
+	    Improvement and extension of default/book/sheet parameters (interline, barline)
+	  </li>
+	  <li>
+	    Ability to display some inters (augmentation dots by default) in jumbo mode
+	  </li>
+	  <li>
+	    Ability to stop current book processing at next step end
+	  </li>
+	  <li>
+	    Ability to clear the log window
+	  </li>
+	  <li>
+	    Support for a PDF version of the Audiveris Handbook
+	  </li>
+	</ul>
+      </description>
+    </release>
     <release version="5.3.1" date="2023-07-04" urgency="low"
 	     type="stable">
       <description>

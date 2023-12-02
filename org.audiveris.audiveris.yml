@@ -1,4 +1,3 @@
-
 app-id: org.audiveris.audiveris
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
@@ -52,8 +51,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/Audiveris/audiveris
-        tag: 5.3.1
-        commit: f0bdbe64e56dbfcf8f4bde095dbc61c464010605
+        tag: 5.4-alpha
+        commit: 698b2bb69512ca8b61747630e6c0843bb3b6eda0
       - type: file
         url: https://services.gradle.org/distributions/gradle-7.3-all.zip
         sha256: 00b273629df4ce46e68df232161d5a7c4e495b9a029ce6e0420f071e21316867
