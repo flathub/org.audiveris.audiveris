@@ -1,0 +1,12 @@
+      - type: file
+        path: deu.traineddata
+
+      - type: file
+        path: eng.traineddata
+
+      - type: file
+        path: fra.traineddata
+
+      - type: file
+        path: ita.traineddata
+
