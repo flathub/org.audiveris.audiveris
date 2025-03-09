@@ -561,6 +561,20 @@
   },
   {
     "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/1.4.0/jai-imageio-jpeg2000-1.4.0.jar",
+    "sha512": "211257bdb6b498560ec6b118cfb14ca5554c8ac539c863511fbe8ef62746e594541460d3e569ccf262e9c69db6047c709417a3eb4ce9cc3f2f8e0970facd7412",
+    "dest": "dependencies/com/github/jai-imageio/jai-imageio-jpeg2000/1.4.0",
+    "dest-filename": "jai-imageio-jpeg2000-1.4.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/1.4.0/jai-imageio-jpeg2000-1.4.0.pom",
+    "sha512": "65bea6e5617fb311ba5faad63c927f0056d51d49444815854f058942f69318518740e9777571446c0179d924c95c380acea7e2bffa34a361ea06b728e287d269",
+    "dest": "dependencies/com/github/jai-imageio/jai-imageio-jpeg2000/1.4.0",
+    "dest-filename": "jai-imageio-jpeg2000-1.4.0.pom"
+  },
+  {
+    "type": "file",
     "url": "https://repo.maven.apache.org/maven2/com/github/vlsi/mxgraph/jgraphx/4.1.0/jgraphx-4.1.0.jar",
     "sha512": "e6c61434a7abd0d4f96a02ca0c989b98e501fc4ea43e41c516879f67de57dcda9139f6122e444c922b99ac04bffd5bb6a1d56a5c1e9d7517952dfc9c8334f912",
     "dest": "dependencies/com/github/vlsi/mxgraph/jgraphx/4.1.0",
@@ -834,17 +848,17 @@
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.3/commons-logging-1.3.3.jar",
-    "sha512": "86adf089e9d5723bce8d4e0dcd0a7590c3aa27eed3982c8fde49f865dccb262043df8b47b2e721258fa8a880d0e32defa3406e9dd48ccc54c5d34793c919f36b",
-    "dest": "dependencies/commons-logging/commons-logging/1.3.3",
-    "dest-filename": "commons-logging-1.3.3.jar"
+    "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.4/commons-logging-1.3.4.jar",
+    "sha512": "102f83e2a274d1ee4b089cf59f9c8d43d65dda6080d108f0589ce807e142a68129e2e55b249088da2e753e9bfe0bbc39a3dc90661cd357f2d0d177a010c9a5c9",
+    "dest": "dependencies/commons-logging/commons-logging/1.3.4",
+    "dest-filename": "commons-logging-1.3.4.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.3/commons-logging-1.3.3.pom",
-    "sha512": "fdb730c79dac1a4eb5c64afc014439648fd16a65a3aa29aa1a5de4863595bab168e24d3dacc26fa6b6626e124caa8f6a5e054f00b48e794aa3357e9ce1182eb9",
-    "dest": "dependencies/commons-logging/commons-logging/1.3.3",
-    "dest-filename": "commons-logging-1.3.3.pom"
+    "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.4/commons-logging-1.3.4.pom",
+    "sha512": "9f9203e95a38c787049548a8727beb97d1388b267f5f4b7ce1d987919881de442e6579228e0d1762a7b6952d44f8ea355e677eda0140d88fdc301ad4b9c5c9e5",
+    "dest": "dependencies/commons-logging/commons-logging/1.3.4",
+    "dest-filename": "commons-logging-1.3.4.pom"
   },
   {
     "type": "file",
@@ -1037,6 +1051,13 @@
   },
   {
     "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom",
+    "sha512": "9ef6f99b30fe2603ad8f2c88116072de36bd2dc99590fd9e7eecf153dbf50cbd766694d861e666138d2a26137be69fe98cc38a491f6a2a68e8d421d656731ed1",
+    "dest": "dependencies/org/apache/apache/18",
+    "dest-filename": "apache-18.pom"
+  },
+  {
+    "type": "file",
     "url": "https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom",
     "sha512": "c82bd27c06d76b3f467118b1a8e0976c60fd0e7d7a01dac685c9a91e1822c0e6f5829bf48ad532a9fc000089cdb894a97c5686365fd3c8c8bfa787136a4fa9d2",
     "dest": "dependencies/org/apache/apache/21",
@@ -1055,6 +1076,13 @@
     "sha512": "ccfa1e48c2a3848ccf8da402bdfea02e0028801ddeb35e9556d1ccaa04d8cb886b5530423c2b460d9ac4ad1ec29b2a64ba5c76c993f3df9f1102e396688ffde5",
     "dest": "dependencies/org/apache/apache/32",
     "dest-filename": "apache-32.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/apache/apache/33/apache-33.pom",
+    "sha512": "17ccc60c4670ded2b9b0986c8549c7f7789afb4a194c81d16c9c8de10b514396f241c8b1622150b38a8d3a889f6733af66554685b7b801647b5ddfaccef5537e",
+    "dest": "dependencies/org/apache/apache/33",
+    "dest-filename": "apache-33.pom"
   },
   {
     "type": "file",
@@ -1086,10 +1114,10 @@
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/71/commons-parent-71.pom",
-    "sha512": "a4224f6f084e6ac0e029080bb97c062220ce500c3fd5d0b3dc06e3053e97bb1ac4296d225371b9f2d0c2e411f41d571c071d24a922cdcc219ee622a22cd4562d",
-    "dest": "dependencies/org/apache/commons/commons-parent/71",
-    "dest-filename": "commons-parent-71.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/72/commons-parent-72.pom",
+    "sha512": "0f480674c3ef655951e34360ce6006cc7a7d78a0560685357c8d332614922fc52df1b7e18dc958e0be5cab76ce1bf9b57b4693a6ceb0cfa9eb5f06b00398e610",
+    "dest": "dependencies/org/apache/commons/commons-parent/72",
+    "dest-filename": "commons-parent-72.pom"
   },
   {
     "type": "file",
@@ -1128,52 +1156,66 @@
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.3/fontbox-3.0.3.jar",
-    "sha512": "4e88662f50d0ecafe2bfccdbe3164a1ec01ab8ed451e8727f7c344794e53ee735fa1a4b584b8483795c905d13949eede22de417135e72652cd341d7317ef57a5",
-    "dest": "dependencies/org/apache/pdfbox/fontbox/3.0.3",
-    "dest-filename": "fontbox-3.0.3.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.4/fontbox-3.0.4.jar",
+    "sha512": "119e9bf6caa00ebdc3a23550896d08f44ecc78f15357e485032c1ce43f2936e3ef8bc1ce4e1b028be9db809ddf516792bee9803f66e964f5b3a39b0def95bbe4",
+    "dest": "dependencies/org/apache/pdfbox/fontbox/3.0.4",
+    "dest-filename": "fontbox-3.0.4.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.3/fontbox-3.0.3.pom",
-    "sha512": "ffe57888be4a8ab698d57e93b3c7498c8713b3a0cacf135f2132e94551847464489375acf846122434b4dae7b65685f26b58fb0abc531c2a04a2e2b3a8781ca1",
-    "dest": "dependencies/org/apache/pdfbox/fontbox/3.0.3",
-    "dest-filename": "fontbox-3.0.3.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.4/fontbox-3.0.4.pom",
+    "sha512": "704d2505f45fe7775d883d5f1e79160d265037a2023595a9e9864c9ffd8ee357daa51a62bb2e5e722254554347b6fdd050a1f6a3cbf4ba3481551c5157332b26",
+    "dest": "dependencies/org/apache/pdfbox/fontbox/3.0.4",
+    "dest-filename": "fontbox-3.0.4.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/3.0.3/pdfbox-io-3.0.3.jar",
-    "sha512": "35a778196ccfb75959812cb17de5225413a99deb6b00e35533a32df9d5ba93fe6a9648765de8c03f242af5ab017580c1b5df4849370019867cd030fd2ea6b9fd",
-    "dest": "dependencies/org/apache/pdfbox/pdfbox-io/3.0.3",
-    "dest-filename": "pdfbox-io-3.0.3.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.jar",
+    "sha512": "1fb8888a091a9b94ec39a2bdf5068bdb54ecadcbe84f8cc14f4eb31088d46c1a6e92c4cc183666d65192d15d30b1dbf6b6f35dd60937e2a84a553a59777c133f",
+    "dest": "dependencies/org/apache/pdfbox/jbig2-imageio/3.0.4",
+    "dest-filename": "jbig2-imageio-3.0.4.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/3.0.3/pdfbox-io-3.0.3.pom",
-    "sha512": "7975f38f8c977b009e3db35664a935802e0e8221908cd159a3e95ac60d7f4a9fa848a11203e90d9167de527113c526dd6895b255a7ae86c7ae3aa7eb36166384",
-    "dest": "dependencies/org/apache/pdfbox/pdfbox-io/3.0.3",
-    "dest-filename": "pdfbox-io-3.0.3.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.pom",
+    "sha512": "3400f40cc9855761e3945851bd0e1412ea78c677ad0d119bd8c411ce72dc636addf606270b501d4e95737fce8771280e96c6b858a8d87ee79b84484b5ea9f918",
+    "dest": "dependencies/org/apache/pdfbox/jbig2-imageio/3.0.4",
+    "dest-filename": "jbig2-imageio-3.0.4.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/3.0.3/pdfbox-parent-3.0.3.pom",
-    "sha512": "0b6ab5fc49180d7d9e2483c821181e65014586c03f8e58d3b12ace564790be4c4ebf4bd1dd4cbde4b395bf2e35ec0c19b4ec3544cb95803c0aa3408eef8166e1",
-    "dest": "dependencies/org/apache/pdfbox/pdfbox-parent/3.0.3",
-    "dest-filename": "pdfbox-parent-3.0.3.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/3.0.4/pdfbox-io-3.0.4.jar",
+    "sha512": "bb3c368429c24c382e08c421976108b2432d89f84dad896fc8dbfc1801fd29ad6f872f326de432c99c08cd45c1b2c5c53dc81a7aefee826f1c86836cdada55f4",
+    "dest": "dependencies/org/apache/pdfbox/pdfbox-io/3.0.4",
+    "dest-filename": "pdfbox-io-3.0.4.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.3/pdfbox-3.0.3.jar",
-    "sha512": "84c51bce7ff6ebc9f7159a824a0de4ad575c6c546920cc776de494b1af7d28ba9f30c90a59ccd8ea25390c43567389e168535cc1da4b1d5aaad4cb8810b6c743",
-    "dest": "dependencies/org/apache/pdfbox/pdfbox/3.0.3",
-    "dest-filename": "pdfbox-3.0.3.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/3.0.4/pdfbox-io-3.0.4.pom",
+    "sha512": "cb7e3d7b6937aec2a677aeb4f6ee4dfa4be776be3bce4703ff87a8dbe309f70282d21a3c646bea5508f752c11a1a97f8f98a348fe49a25d53bc46ec444282eb1",
+    "dest": "dependencies/org/apache/pdfbox/pdfbox-io/3.0.4",
+    "dest-filename": "pdfbox-io-3.0.4.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.3/pdfbox-3.0.3.pom",
-    "sha512": "e736422945717ae4ef5c6bcad1ed13bdef7a223e8f33ff1684b62fbe9bced4bae8f3edbd3d37ef31ec5214fd3c105d66938456c5083e771d8fe2a9a5be84a8f1",
-    "dest": "dependencies/org/apache/pdfbox/pdfbox/3.0.3",
-    "dest-filename": "pdfbox-3.0.3.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/3.0.4/pdfbox-parent-3.0.4.pom",
+    "sha512": "4b25a666d704c51717e638a0bcaa88a8ae7a2d05d5fca40d1030e8d024c5c754d5c23efa4195e7d2a417e6c90f9f75fc37d8a6b645a5854186c8995df50511eb",
+    "dest": "dependencies/org/apache/pdfbox/pdfbox-parent/3.0.4",
+    "dest-filename": "pdfbox-parent-3.0.4.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.4/pdfbox-3.0.4.jar",
+    "sha512": "9c93d2f659e140b47d605bf1ae59c7c4d9ae79ac3ae4cd04b1e13bc2e253447bd19e157af5ab0267753269cd3ee7c02b67bc513bb89886a82bbf68b953b284a6",
+    "dest": "dependencies/org/apache/pdfbox/pdfbox/3.0.4",
+    "dest-filename": "pdfbox-3.0.4.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.4/pdfbox-3.0.4.pom",
+    "sha512": "93102af0453b8472b6b0dce22c88c0146b1c17a50b16d1845afc13b743861a7dce405783e829e372059923c857554fb1bf57df9f4503f65b5ec285b8ea00168c",
+    "dest": "dependencies/org/apache/pdfbox/pdfbox/3.0.4",
+    "dest-filename": "pdfbox-3.0.4.pom"
   },
   {
     "type": "file",
