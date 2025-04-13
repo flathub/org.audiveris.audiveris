@@ -1233,6 +1233,34 @@
   },
   {
     "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/barfuin/gradle/taskinfo/gradle-taskinfo/2.2.0/gradle-taskinfo-2.2.0.jar",
+    "sha512": "21fdbecafd8f5fde3f9e21798430b612b48daf4b43f3afa1091a6600c12b13bbb89a7c82cc167b1bc933f604cca8a58d1a1b046cac8c1f4f6fde0a9f7da946c6",
+    "dest": "dependencies/org/barfuin/gradle/taskinfo/gradle-taskinfo/2.2.0",
+    "dest-filename": "gradle-taskinfo-2.2.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/barfuin/gradle/taskinfo/gradle-taskinfo/2.2.0/gradle-taskinfo-2.2.0.module",
+    "sha512": "2b78e3ad3eae41910836f8b08ee29679210aa384118548c4f678e612c30a396ca53420db073fab87328c589d487123f174d713c08ddfdba59c5cdec7e6ad62cf",
+    "dest": "dependencies/org/barfuin/gradle/taskinfo/gradle-taskinfo/2.2.0",
+    "dest-filename": "gradle-taskinfo-2.2.0.module"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/barfuin/gradle/taskinfo/gradle-taskinfo/2.2.0/gradle-taskinfo-2.2.0.pom",
+    "sha512": "5a1fc6b9cab49071fc460ec82a67f2938236f7d4b39be79e25f9fd8a8b3fc7d0572dcdac4d8f2078d30724988f9875f9404c3a8cb0c1fe1f2ea9491e280f1ff6",
+    "dest": "dependencies/org/barfuin/gradle/taskinfo/gradle-taskinfo/2.2.0",
+    "dest-filename": "gradle-taskinfo-2.2.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/barfuin/gradle/taskinfo/org.barfuin.gradle.taskinfo.gradle.plugin/2.2.0/org.barfuin.gradle.taskinfo.gradle.plugin-2.2.0.pom",
+    "sha512": "bf2b8d2e13664190c84bd587df4a128cf9cfcd0741299a264bdd915e3d2be7c79f56c3e03dae249852c5d66f65c0755f18d0ed4d8de26da6f6fdcdf5391f6a58",
+    "dest": "dependencies/org/barfuin/gradle/taskinfo/org.barfuin.gradle.taskinfo.gradle.plugin/2.2.0",
+    "dest-filename": "org.barfuin.gradle.taskinfo.gradle.plugin-2.2.0.pom"
+  },
+  {
+    "type": "file",
     "url": "https://repo.maven.apache.org/maven2/org/bushe/eventbus/1.4/eventbus-1.4.jar",
     "sha512": "49fd34712fb53023e93b70d7f14b700f140889f37c4fc13e3e78fbbea2cc219a6e3abda28144755deeb295741f2d550ae03a1149cbc63a5e22b10f5de5997f24",
     "dest": "dependencies/org/bushe/eventbus/1.4",
