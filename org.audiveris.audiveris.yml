@@ -13,12 +13,12 @@
 
 id: org.audiveris.audiveris
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk21
+  - org.freedesktop.Sdk.Extension.openjdk25
 build-options:
-  append-path: "/usr/lib/sdk/openjdk21/bin"
+  append-path: "/usr/lib/sdk/openjdk25/bin"
 command: Audiveris
 finish-args:
   # Network access
@@ -38,14 +38,14 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk21/install.sh
+      - /usr/lib/sdk/openjdk25/install.sh
 
   - name: audiveris
     buildsystem: simple
     build-commands:
       # We make the Gradle wrapper use our local .zip file
       # NOTA: template expansion will reduce the backslashes in template, so double them!
-      - ln --force gradle-8.7-all.zip gradle/wrapper/gradle-8.7-all.zip
+      - ln --force gradle-9.1.0-bin.zip gradle/wrapper/gradle-9.1.0-bin.zip
       - >-
         sed --regexp-extended --in-place
         's,https\\://services.gradle.org/distributions/,file:\/run/build/audiveris/,'
@@ -75,11 +75,11 @@ modules:
       # Audiveris project. We provide the commit hash value
       - type: git
         url: https://github.com/Audiveris/audiveris
-        commit: 5c1847d1cfe35f4b5cc15dcd5e684d995825b605
+        commit: cf464c2e0ea06507a9976abcbad811a08cddf613
 
       - type: file
-        url: https://services.gradle.org/distributions/gradle-8.7-all.zip
-        sha256: 194717442575a6f96e1c1befa2c30e9a4fc90f701d7aee33eb879b79e7ff05c0
+        url: https://services.gradle.org/distributions/gradle-9.1.0-bin.zip
+        sha256: a17ddd85a26b6a7f5ddb71ff8b05fc5104c0202c6e64782429790c933686c806
 
       - type: file
         path: org.audiveris.audiveris.desktop
