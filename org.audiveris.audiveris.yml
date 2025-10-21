@@ -1,11 +1,24 @@
-app-id: org.audiveris.audiveris
+# ----
+# flatpak-builder manifest file template
+# to be expanded and copied from flatpak/dev to flatpak/flathub
+# via the gradle task :flatpak:genManifest
+#
+# Variables names and example values:
+# - OPEN_JDK:       openjdk21
+# - GRADLE_URL:     https\://services.gradle.org/distributions/gradle-8.5-all.zip
+# - GRADLE_NAME:    gradle-8.5-all.zip
+# - GRADLE_SHA256:  c16d517b50dd28b3f5838f0e844b7520b8f1eb610f2f29de7e4e04a1b7c9c79b
+# - COMMIT:         db8046ad8bfba7872cb68df7d8786152f357ab39
+# ----
+
+id: org.audiveris.audiveris
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk17
+  - org.freedesktop.Sdk.Extension.openjdk25
 build-options:
-  append-path: "/usr/lib/sdk/openjdk17/bin"
+  append-path: "/usr/lib/sdk/openjdk25/bin"
 command: Audiveris
 finish-args:
   # Network access
@@ -16,6 +29,7 @@ finish-args:
   # Needs to save files locally
   - --filesystem=xdg-documents
   - --filesystem=xdg-pictures
+  - --filesystem=~/.audiveris
   - --env=PATH=/app/bin:/app/jre/bin:/usr/bin
   - --env=JAVA_HOME=/app/jre
   # Calling abort() on malloc-check doesn't fly with OpenJDK
@@ -23,51 +37,55 @@ finish-args:
 modules:
   - name: openjdk
     buildsystem: simple
-    only-arches:
-      - x86_64
     build-commands:
-      - /usr/lib/sdk/openjdk17/install.sh
+      - /usr/lib/sdk/openjdk25/install.sh
 
   - name: audiveris
     buildsystem: simple
-    only-arches:
-      - x86_64
     build-commands:
-      - ln -f gradle-7.3-all.zip gradle/wrapper/gradle-7.3-all.zip
-      - sed -Ei 's,https\\://services.gradle.org/distributions/,,' gradle/wrapper/gradle-wrapper.properties
-      - sh ./mkgradlerepo.sh
-      - install -m 0644 -D -t /app/share/tessdata *.traineddata
-      - install -m 0644 -D res/icon-256.png /app/share/icons/hicolor/256x256/apps/org.audiveris.audiveris.png
-      - install -m 0644 -D res/icon-64.png /app/share/icons/hicolor/64x64/apps/org.audiveris.audiveris.png
-      - install -m 0644 -D src/main/org/audiveris/omr/ui/resources/icon-48.png /app/share/icons/hicolor/48x48/apps/org.audiveris.audiveris.png
-      - install -m 0644 -D src/main/org/audiveris/omr/ui/resources/icon-32.png /app/share/icons/hicolor/32x32/apps/org.audiveris.audiveris.png
-      - install -m 0644 -D src/main/org/audiveris/omr/ui/resources/icon-24.png /app/share/icons/hicolor/24x24/apps/org.audiveris.audiveris.png
-      - install -m 0644 -D src/main/org/audiveris/omr/ui/resources/icon-16.png /app/share/icons/hicolor/16x16/apps/org.audiveris.audiveris.png
-      - install -m 0644 -D -m 644 org.audiveris.audiveris.desktop /app/share/applications/org.audiveris.audiveris.desktop
-      - install -m 0644 -D -m 644 org.audiveris.audiveris.metainfo.xml /app/share/metainfo/org.audiveris.audiveris.metainfo.xml
-      - ./gradlew --offline build
-      - tar x -C /app --strip-components=1 -f build/distributions/Audiveris-*.tar
-      - sed -i -f add-tessdata-prefix.sed /app/bin/Audiveris
+      # We make the Gradle wrapper use our local .zip file
+      # NOTA: template expansion will reduce the backslashes in template, so double them!
+      - ln --force gradle-9.1.0-bin.zip gradle/wrapper/gradle-9.1.0-bin.zip
+      - >-
+        sed --regexp-extended --in-place
+        's,https\\://services.gradle.org/distributions/,file:\/run/build/audiveris/,'
+        gradle/wrapper/gradle-wrapper.properties
+
+      # Copy some needed icons
+      - install --mode=0644 -D app/res/icon-256.png /app/share/icons/hicolor/256x256/apps/org.audiveris.audiveris.png
+      - install --mode=0644 -D app/res/icon-64.png /app/share/icons/hicolor/64x64/apps/org.audiveris.audiveris.png
+      - install --mode=0644 -D app/src/main/java/org/audiveris/omr/ui/resources/icon-48.png /app/share/icons/hicolor/48x48/apps/org.audiveris.audiveris.png
+      - install --mode=0644 -D app/src/main/java/org/audiveris/omr/ui/resources/icon-32.png /app/share/icons/hicolor/32x32/apps/org.audiveris.audiveris.png
+      - install --mode=0644 -D app/src/main/java/org/audiveris/omr/ui/resources/icon-24.png /app/share/icons/hicolor/24x24/apps/org.audiveris.audiveris.png
+      - install --mode=0644 -D app/src/main/java/org/audiveris/omr/ui/resources/icon-16.png /app/share/icons/hicolor/16x16/apps/org.audiveris.audiveris.png
+
+      # Copy desktop and metainfo
+      - install --mode=0644 -D org.audiveris.audiveris.desktop /app/share/applications/org.audiveris.audiveris.desktop
+      - install --mode=0644 -D org.audiveris.audiveris.metainfo.xml /app/share/metainfo/org.audiveris.audiveris.metainfo.xml
+
+      # Run Gradle build in offline mode, with a specific repository (hence the isFlatpak property)
+      - ./gradlew -PisFlatpak=true --offline distTar
+
+      # Extract lib and bin from Audiveris .tar to /app
+      - tar x --directory=/app --strip-components=1 --file app/build/distributions/*.tar
+
     sources:
+      # NOTA: Paths are relative to the location of the expanded template, that is flatpak/flathub
+      
+      # Audiveris project. We provide the commit hash value
       - type: git
         url: https://github.com/Audiveris/audiveris
-        tag: 5.4-alpha
-        commit: 698b2bb69512ca8b61747630e6c0843bb3b6eda0
+        commit: cf464c2e0ea06507a9976abcbad811a08cddf613
+
       - type: file
-        url: https://services.gradle.org/distributions/gradle-7.3-all.zip
-        sha256: 00b273629df4ce46e68df232161d5a7c4e495b9a029ce6e0420f071e21316867
-      - type: patch
-        path: 0001-add-local-dependencies-mirror.patch
+        url: https://services.gradle.org/distributions/gradle-9.1.0-bin.zip
+        sha256: a17ddd85a26b6a7f5ddb71ff8b05fc5104c0202c6e64782429790c933686c806
+
       - type: file
         path: org.audiveris.audiveris.desktop
+
       - type: file
         path: org.audiveris.audiveris.metainfo.xml
-      - type: file
-        path: add-tessdata-prefix.sed
-      - type: file
-        # mkgradlerepo.sh is generated by deps.py
-        path: mkgradlerepo.sh
-        # dependencies.yml generated by deps.py
-      - dependencies.yml
-        # lang_sources.yml generated by languages.sh
-      - lang_sources.yml
+
+      # Include app dependencies.json, generated by Gradle task :flatpak:genDependencies
+      - dependencies.json
