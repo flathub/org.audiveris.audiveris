@@ -169,10 +169,129 @@
   },
   {
     "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-toml/2.13.0/jackson-dataformat-toml-2.13.0.pom",
+    "sha512": "6c6ae3bb15359bd6c31e456969ccd5478a5752fa8334c90258435be28f46d3752a91c2fcf726ea941a8a6a12c13df9a4f952979e354ca874d3a41e344dc115eb",
+    "dest": "dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-toml/2.13.0",
+    "dest-filename": "jackson-dataformat-toml-2.13.0.pom"
+  },
+  {
+    "type": "file",
     "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.0/jackson-dataformat-xml-2.13.0.pom",
     "sha512": "0b3bec40bbee0ba873a87dbd1d582fd9159fa8d3b59458e5ac6ec1cc79e74285f785dcd5acb95a2c66aa72f7656cbc8667ca64f157731e3760f266113b56696c",
     "dest": "dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.0",
     "dest-filename": "jackson-dataformat-xml-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.0/jackson-dataformat-yaml-2.13.0.pom",
+    "sha512": "372dcdfa9ef481af90032fa7c86a4ad890d6926c7cf85876ffdf54528e4641ad207c022ccc083b802bde76b0f1cbedd9ba715e20aa2b50757a1dbef46777e9aa",
+    "dest": "dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.0",
+    "dest-filename": "jackson-dataformat-yaml-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.0/jackson-datatype-eclipse-collections-2.13.0.pom",
+    "sha512": "e5ea79aad7022f060585ecf0c879ee42cfcc2dda9fe556a7b45e4f11e688a09863917c322e4f1d1ba9e18b48c4479d824d55bd4daa52ffcbfa08c49d7554396a",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.0",
+    "dest-filename": "jackson-datatype-eclipse-collections-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.13.0/jackson-datatype-guava-2.13.0.pom",
+    "sha512": "235924763708ab917a7b591366cd5866a83e621f91c8a0cb5bf9a1a88ad1de0703d77e013b611e1a0bb390d7584e50937e29750b9b5dba78c0bea4dc5fd7d11f",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.13.0",
+    "dest-filename": "jackson-datatype-guava-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-hibernate4/2.13.0/jackson-datatype-hibernate4-2.13.0.pom",
+    "sha512": "e376a4b438395aa2d6e7c42927a7d1ba843135932da0ba7e71b07a8e640d998cdb1b8a4f423f9a35309113c3e080953d39f09d51461fca1d23bed60832190502",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-hibernate4/2.13.0",
+    "dest-filename": "jackson-datatype-hibernate4-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-hibernate5-jakarta/2.13.0/jackson-datatype-hibernate5-jakarta-2.13.0.pom",
+    "sha512": "e7e64acd654083a0cb711c3c9066105839b59484a4120cd95364e09cc924377c5c0e65b442b83bf3cdc0b40dacd37e9caa4ae96e58c1c57dbdcbc2fd469461df",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-hibernate5-jakarta/2.13.0",
+    "dest-filename": "jackson-datatype-hibernate5-jakarta-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-hibernate5/2.13.0/jackson-datatype-hibernate5-2.13.0.pom",
+    "sha512": "99f93bcd5d7fa5c50f23dd07bef6d604e287a039811f63dc13447ece6fa0cbdc7397663f9dce08551a4abdca02991ce3ab0a1cf38fd5851d6c2e3dea7fb85bf8",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-hibernate5/2.13.0",
+    "dest-filename": "jackson-datatype-hibernate5-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-hppc/2.13.0/jackson-datatype-hppc-2.13.0.pom",
+    "sha512": "e7f82693bf982ffd092a62b24c0d972d8311296cad3411e7b91c06a18689bce5df0a040124d802fdc3ce9fe224d5b140947a19e1aaddd90a620725e4a97e7a04",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-hppc/2.13.0",
+    "dest-filename": "jackson-datatype-hppc-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.0/jackson-datatype-jakarta-jsonp-2.13.0.pom",
+    "sha512": "a02cc97e636bfad15fce1610848cf660e80e8f4a921c341d8470cd0dc798049ee8e51d54c7bcd0473a0861c92bbc1183b27bd84d589c6a5df28f1262d7cc4a3d",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.0",
+    "dest-filename": "jackson-datatype-jakarta-jsonp-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jaxrs/2.13.0/jackson-datatype-jaxrs-2.13.0.pom",
+    "sha512": "c84fd6893a89814842e465a075d82534e64faabe7d0a5acf3641d8f07a6b08f4686d005516242571fcb0c5bf5d6906678f0e3a56a4b75a6abb6791881197c961",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-jaxrs/2.13.0",
+    "dest-filename": "jackson-datatype-jaxrs-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.0/jackson-datatype-jdk8-2.13.0.pom",
+    "sha512": "c2bdecfe7e4e86fa9ef106ab33086abdc1e85bd3632e9b61362613b5bae4e428ab9f23f68c41a00b90046ce99bf561ff0772af509dad74378cdfc393b0b83582",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.0",
+    "dest-filename": "jackson-datatype-jdk8-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda-money/2.13.0/jackson-datatype-joda-money-2.13.0.pom",
+    "sha512": "6738997134b57e648fd5420bebb4cffe6d53fb710ce45ad836c7b935b50041cb1fb7d6def56b4f1f2eedc592017dc60547b081cb8458784c3c3b8b450a1eaff8",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-joda-money/2.13.0",
+    "dest-filename": "jackson-datatype-joda-money-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.0/jackson-datatype-joda-2.13.0.pom",
+    "sha512": "2bf5599b8dc00e6bbb864ddfb7690f8b81feb7a23c637b9bbf051e2507de926706bbb4d7eb0cf087c8ee215d1164ced203896b3e78843a688bce98356e0ade48",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.0",
+    "dest-filename": "jackson-datatype-joda-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-json-org/2.13.0/jackson-datatype-json-org-2.13.0.pom",
+    "sha512": "22bdcb9889dbe0b36dfe15b519e2e8090157e29be379bc6109796df9730af22600579980501e72f2e03b18e9901cb47993e896eb09e043a53e51a51335e53a56",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-json-org/2.13.0",
+    "dest-filename": "jackson-datatype-json-org-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0/jackson-datatype-jsr310-2.13.0.pom",
+    "sha512": "591d153d956974aa3831ddc0d4723c9330fa79aad5f2f371928bdd35d13f329bd0d134162f8ef9986068887de52b0044d332ea2df6c601c92b2f49b5e59c30c0",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0",
+    "dest-filename": "jackson-datatype-jsr310-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr353/2.13.0/jackson-datatype-jsr353-2.13.0.pom",
+    "sha512": "01f1e68e3c8aab8e2d12ac252ecc858c880516de32c80c5b8ccc3a6fc49706c51560f1c40815d8b9e3a92b8043fe549ca1a0d5052febad0b01af86d8979a3514",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-jsr353/2.13.0",
+    "dest-filename": "jackson-datatype-jsr353-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-pcollections/2.13.0/jackson-datatype-pcollections-2.13.0.pom",
+    "sha512": "12d693fe6cb279cfc7aa2a8917439ecfba3274e40e2359b38d868cd6ce89d757ca504d25e14d38a0bc129bf9bb640aeb083a6681be901ae32184eb1ffe1289e6",
+    "dest": "dependencies/com/fasterxml/jackson/datatype/jackson-datatype-pcollections/2.13.0",
+    "dest-filename": "jackson-datatype-pcollections-2.13.0.pom"
   },
   {
     "type": "file",
@@ -197,6 +316,55 @@
   },
   {
     "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-base/2.13.0/jackson-jakarta-rs-base-2.13.0.pom",
+    "sha512": "c8e87bc092e051713d9e2a74d1b3f3f4ecf065bd9df2cb9cc161030b46e4e8350ce72fda7c76042f48817c0b438adc43fceb66541f7e43bc315fdf417bccf64f",
+    "dest": "dependencies/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-base/2.13.0",
+    "dest-filename": "jackson-jakarta-rs-base-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-cbor-provider/2.13.0/jackson-jakarta-rs-cbor-provider-2.13.0.pom",
+    "sha512": "be6215c534c5453acf02ca7f497c65ffa2cf811d2a83acd4354049b8cefa8b72f4bfa947ab93f829df8e6882b0f581e16fa9c3bbe6b4ba24ae2b4f14700cf016",
+    "dest": "dependencies/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-cbor-provider/2.13.0",
+    "dest-filename": "jackson-jakarta-rs-cbor-provider-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-json-provider/2.13.0/jackson-jakarta-rs-json-provider-2.13.0.pom",
+    "sha512": "cb1b5b6cc5c385415bfe972ec798e5f79db78a0cb134ca58b3bf7bcdb3de8ec0c62abfcaf94e5f4a15377ae202f5b30620d9b6efb5ffc028e46e647b13d1eda8",
+    "dest": "dependencies/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-json-provider/2.13.0",
+    "dest-filename": "jackson-jakarta-rs-json-provider-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-smile-provider/2.13.0/jackson-jakarta-rs-smile-provider-2.13.0.pom",
+    "sha512": "194cbd7f9fa892e8bdd55df5098286f000f19696ce5b7fba898c7d3a3a96f0405c4f776aa01ea3c883f6ae598045f061769d5cae9682127f85ff707fc3ef38c9",
+    "dest": "dependencies/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-smile-provider/2.13.0",
+    "dest-filename": "jackson-jakarta-rs-smile-provider-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-xml-provider/2.13.0/jackson-jakarta-rs-xml-provider-2.13.0.pom",
+    "sha512": "da0b46ce7adc881a41206be64f73a7b097d8ef2767fec9bcc49f5fec99a7dfa171b6b5b7bc0c9615173cf013cbb5304dfc718e6875cfc74d4419cd7f425a638b",
+    "dest": "dependencies/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-xml-provider/2.13.0",
+    "dest-filename": "jackson-jakarta-rs-xml-provider-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-yaml-provider/2.13.0/jackson-jakarta-rs-yaml-provider-2.13.0.pom",
+    "sha512": "38e8d2ab2c0a63ac18fec87e7779ec6d1a4dd07e1997e183d6e8b9c046ea40352952567166013ebded4cc6bb6d17d99f8ad6ec51b5803da6ce257416a18f3b40",
+    "dest": "dependencies/com/fasterxml/jackson/jakarta/rs/jackson-jakarta-rs-yaml-provider/2.13.0",
+    "dest-filename": "jackson-jakarta-rs-yaml-provider-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.13.0/jackson-jaxrs-base-2.13.0.pom",
+    "sha512": "03a0789bdfcc51cda4b74210e81e231795c10a4a408e52e33980c63addadc007453643521be506b4ad3f0a2e0a58e95210ec721cc5b8506eae43b84cdae111bc",
+    "dest": "dependencies/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.13.0",
+    "dest-filename": "jackson-jaxrs-base-2.13.0.pom"
+  },
+  {
+    "type": "file",
     "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-cbor-provider/2.13.0/jackson-jaxrs-cbor-provider-2.13.0.pom",
     "sha512": "a7cec59fecb723e6cc1dd3ff44e0ec33b605a88c12512085f2ab2196dd375ed63318c43d9aa1e6a9b96291067d239df116e49f521aa6a4481de233bee7e8b811",
     "dest": "dependencies/com/fasterxml/jackson/jaxrs/jackson-jaxrs-cbor-provider/2.13.0",
@@ -211,10 +379,164 @@
   },
   {
     "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-smile-provider/2.13.0/jackson-jaxrs-smile-provider-2.13.0.pom",
+    "sha512": "6bbd746d24242852a33d5df6e55745dea5776e28e60e052e503384e93f06dcae523ead89a483d60fdb8eeaa3bd558bd0a5883f5fc736cd9a8b3c2540a2c057ea",
+    "dest": "dependencies/com/fasterxml/jackson/jaxrs/jackson-jaxrs-smile-provider/2.13.0",
+    "dest-filename": "jackson-jaxrs-smile-provider-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-xml-provider/2.13.0/jackson-jaxrs-xml-provider-2.13.0.pom",
+    "sha512": "a81364c320c952c04ebb1c5a28e62745c86ff12b37d0458a6360955aa3c6db648d4a35e3ac51672d17f50c4d73cf05852cb901fffec8ba8f640372d21df20691",
+    "dest": "dependencies/com/fasterxml/jackson/jaxrs/jackson-jaxrs-xml-provider/2.13.0",
+    "dest-filename": "jackson-jaxrs-xml-provider-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-yaml-provider/2.13.0/jackson-jaxrs-yaml-provider-2.13.0.pom",
+    "sha512": "cc69bdc9f6b21ee67c333203616d8c3e04bf5e067ddbfc3ceaec5b5ad154e009de96143e7614cedcb4589bae5846987fc6abac43529047c7a7e778af834b9291",
+    "dest": "dependencies/com/fasterxml/jackson/jaxrs/jackson-jaxrs-yaml-provider/2.13.0",
+    "dest-filename": "jackson-jaxrs-yaml-provider-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jr/jackson-jr-all/2.13.0/jackson-jr-all-2.13.0.pom",
+    "sha512": "c02815e374f05d0aeebc057a2d67efa3e86b308a7f9b1a4da5ff793f257b92d379679237b61611338265ac396149d05e956944f786e450b32918096374022758",
+    "dest": "dependencies/com/fasterxml/jackson/jr/jackson-jr-all/2.13.0",
+    "dest-filename": "jackson-jr-all-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jr/jackson-jr-annotation-support/2.13.0/jackson-jr-annotation-support-2.13.0.pom",
+    "sha512": "2bc198ef65bf0a3ea4ba3302efbf131f3830363c6d30c26c0f0b82f2801acda6aee1ae704d625c8219d8a911fbaec174ac3f43da45047c32d84940b281aa37c5",
+    "dest": "dependencies/com/fasterxml/jackson/jr/jackson-jr-annotation-support/2.13.0",
+    "dest-filename": "jackson-jr-annotation-support-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jr/jackson-jr-objects/2.13.0/jackson-jr-objects-2.13.0.pom",
+    "sha512": "8ae7b240e5fe643b2f3f4758cd4929750a3c2f979f5a4f73a6539d8e7eaac345427eaf852dfef394f7c75bd7d1851c91860d056afd74089623a00cddc1193a31",
+    "dest": "dependencies/com/fasterxml/jackson/jr/jackson-jr-objects/2.13.0",
+    "dest-filename": "jackson-jr-objects-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jr/jackson-jr-retrofit2/2.13.0/jackson-jr-retrofit2-2.13.0.pom",
+    "sha512": "fbf66a50bd5937c1fdb037b5cdeae3924d007dbf8d4a7fc91dcb80b7488008d05e5244529419f26ef23ab3d1831ef06a971fbf0be51232da8a7bc25afa62440a",
+    "dest": "dependencies/com/fasterxml/jackson/jr/jackson-jr-retrofit2/2.13.0",
+    "dest-filename": "jackson-jr-retrofit2-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jr/jackson-jr-stree/2.13.0/jackson-jr-stree-2.13.0.pom",
+    "sha512": "459da0e1cd6c0054cf0546ac4e3a3e447ba8a22990867c461cfc01acd637c2f2f303f81a804e02057a428694927a61865c6a8a37c6170ad2b956bf1cf87ce20d",
+    "dest": "dependencies/com/fasterxml/jackson/jr/jackson-jr-stree/2.13.0",
+    "dest-filename": "jackson-jr-stree-2.13.0.pom"
+  },
+  {
+    "type": "file",
     "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-afterburner/2.13.0/jackson-module-afterburner-2.13.0.pom",
     "sha512": "619b4bcb2898a8cf4610e96d8f5272b04001d773a3eec93d1e14a3833d2b1ad8a41891c23d0c7a53bf5599a144295f67fd454f28a790bc916c06480685d871e3",
     "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-afterburner/2.13.0",
     "dest-filename": "jackson-module-afterburner-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-blackbird/2.13.0/jackson-module-blackbird-2.13.0.pom",
+    "sha512": "e14afe98d61d2fb6a63f5eea1da1ce8a634ebb7433283b624777e0e726c4bd74780274cc18f0ff15c3a639cc01a2462ea755ba699ac69eeafc509cd26967faef",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-blackbird/2.13.0",
+    "dest-filename": "jackson-module-blackbird-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-guice/2.13.0/jackson-module-guice-2.13.0.pom",
+    "sha512": "b9a2087a8c4ab7cad7ee9a0fff025de99db322df004f8373dff57c214f8c51d807ec226e66db138f351a6ff1aa148cc60433e1c485eff5da545286635a5e2211",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-guice/2.13.0",
+    "dest-filename": "jackson-module-guice-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.13.0/jackson-module-jakarta-xmlbind-annotations-2.13.0.pom",
+    "sha512": "26720ee875b32dec7769b8a2fe0580498ecab05abd8a6e3591caf79f801015ab91f62fc0af84e65254444f4285031a05ae7c7d05b37b418df3bb4bfc424a98e5",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.13.0",
+    "dest-filename": "jackson-module-jakarta-xmlbind-annotations-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.0/jackson-module-jaxb-annotations-2.13.0.pom",
+    "sha512": "546f446ed31047ada8474c4adfff5698d330125154c1f99f139fd516cc7070654e1a12f3d04dd7456b9bb85681678fce02d4b49d464d905c8bf4029876255ef1",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.0",
+    "dest-filename": "jackson-module-jaxb-annotations-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.0/jackson-module-jsonSchema-2.13.0.pom",
+    "sha512": "e62e3d103a48c4c1cb08d9b5e9da755c83228b7a11c58242296253a00803d9eae4b041e9ed31891ccdf9699549b700418fab9c90682db44eb5870d4483d63bfd",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.0",
+    "dest-filename": "jackson-module-jsonSchema-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.0/jackson-module-kotlin-2.13.0.pom",
+    "sha512": "dbb0ca8a0c9e2add3c4289e780ad55c41e29340c9d9e010363c7ff68bab48644f3f62d25706b456b584a2d83333e770a277974bb0382bb4e7ba7faa38ba00bca",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.0",
+    "dest-filename": "jackson-module-kotlin-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-mrbean/2.13.0/jackson-module-mrbean-2.13.0.pom",
+    "sha512": "9b0e85f492191cb88c046ae3aead1d72eac34dac2bdaf3a6cd23080c7e7524d08872c3e592debd076df77d52eee4ff04e496829044df5003c5693ac6193ad3be",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-mrbean/2.13.0",
+    "dest-filename": "jackson-module-mrbean-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-no-ctor-deser/2.13.0/jackson-module-no-ctor-deser-2.13.0.pom",
+    "sha512": "632acedaf24ec8231b47b36f3981406040b66c3169aa6e7287127e6f828e8b7fc6b41efcb99bbdad2be94f0350e5350406b10788f4f15db317ecb9f17e81d625",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-no-ctor-deser/2.13.0",
+    "dest-filename": "jackson-module-no-ctor-deser-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-osgi/2.13.0/jackson-module-osgi-2.13.0.pom",
+    "sha512": "b10a6665a0d4b0279f02d2803f8df8977ebd7ae427bbb2d64ce273e1071e456d27e3186f91704793fb09038e7f57bf9461bb0ae3b2818692d460a5414a326f6f",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-osgi/2.13.0",
+    "dest-filename": "jackson-module-osgi-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.0/jackson-module-parameter-names-2.13.0.pom",
+    "sha512": "5cd34a89daef004d8c6fd2f04f613c46a05d1c78b4188600f51d0d43e170a2f05da0bb2ca9b13b31aab29dca137da0f7516388703dcff04cc166c0df70184a9e",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.0",
+    "dest-filename": "jackson-module-parameter-names-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.13.0/jackson-module-paranamer-2.13.0.pom",
+    "sha512": "2999df42b9444dfb3f65d7a7be4a117e7e7492039807e4ca8c0a150574f3b8af902912df919a99897354c7540cdd0ebe1db66f6e865ec9ad0e3e279e891cc676",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-paranamer/2.13.0",
+    "dest-filename": "jackson-module-paranamer-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.0/jackson-module-scala_2.11-2.13.0.pom",
+    "sha512": "695ef16d58b2ec44d99d549c28e8f634f8cbc0fbdb276551c73b6b75e6cadff78691c74083e4a044c5789c922b369c06b9571297a2d3f388ec6df1e57dc317bc",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.0",
+    "dest-filename": "jackson-module-scala_2.11-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.13.0/jackson-module-scala_2.12-2.13.0.pom",
+    "sha512": "ad1436573e5c70e2126b87068c804a3f2b123fdfa42d41e983e636763ec33b1571aa52b49f9a0ecea0a2d6a08a6643dbc4672c25bfdc5d761f4e92a9a7544405",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.13.0",
+    "dest-filename": "jackson-module-scala_2.12-2.13.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.13.0/jackson-module-scala_2.13-2.13.0.pom",
+    "sha512": "85a569fe81f9cf57b36ef51eef82b3be15721c14a4191f99f2bb265f5f12ffba7490ae1064df38fb5182b056917760bed7e6f272b34dc2786f48f32660097b81",
+    "dest": "dependencies/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.13.0",
+    "dest-filename": "jackson-module-scala_2.13-2.13.0.pom"
   },
   {
     "type": "file",
