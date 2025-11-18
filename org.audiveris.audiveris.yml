@@ -75,7 +75,7 @@ modules:
       # Audiveris project. We provide the commit hash value
       - type: git
         url: https://github.com/Audiveris/audiveris
-        commit: cf464c2e0ea06507a9976abcbad811a08cddf613
+        commit: cbc5d385d93d5792596c3446b611c05a154c8518
 
       - type: file
         url: https://services.gradle.org/distributions/gradle-9.1.0-bin.zip
