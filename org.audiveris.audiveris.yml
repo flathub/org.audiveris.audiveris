@@ -29,7 +29,7 @@ finish-args:
   # Needs to save files locally
   - --filesystem=xdg-documents
   - --filesystem=xdg-pictures
-  - --filesystem=~/.audiveris
+  - --persist=~/.audiveris
   - --env=PATH=/app/bin:/app/jre/bin:/usr/bin
   - --env=JAVA_HOME=/app/jre
   # Calling abort() on malloc-check doesn't fly with OpenJDK
@@ -75,7 +75,7 @@ modules:
       # Audiveris project. We provide the commit hash value
       - type: git
         url: https://github.com/Audiveris/audiveris
-        commit: 473f09a931132a4e61929c8bda3e97d2643f6732
+        commit: 2524237e4a0544eb3265fdcecb9e770544c0b030
 
       - type: file
         url: https://services.gradle.org/distributions/gradle-9.1.0-bin.zip
