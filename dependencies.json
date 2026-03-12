@@ -141,6 +141,34 @@
   },
   {
     "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-ion/2.20.0/jackson-dataformat-ion-2.20.0.pom",
+    "sha512": "ace7ef7634ae7bf2d4b369202ab6fbbe897355532535d42309d0fc5918c09cab5af4ca88d8946cf57dc3dbe2a5dff02027b864f971700827bf4b3bc325911bf1",
+    "dest": "dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-ion/2.20.0",
+    "dest-filename": "jackson-dataformat-ion-2.20.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-properties/2.20.0/jackson-dataformat-properties-2.20.0.pom",
+    "sha512": "ff5e534f6eac5a5d4da98e68bc57ea95f1433ae9f5439c52df8c4651bfcc1c29b788f75132b601036cdfcabefae2dd0cb968bfde070c6737d489d3a34be64417",
+    "dest": "dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-properties/2.20.0",
+    "dest-filename": "jackson-dataformat-properties-2.20.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-protobuf/2.20.0/jackson-dataformat-protobuf-2.20.0.pom",
+    "sha512": "0130fdead2c9bb0be27bfba9ed310a7119ab5c864fb41873374418aaee685224ebb9d0bcfbc1a372d4f1895dd8e2e60067adf1d0861ba64c43086d66c45ffc48",
+    "dest": "dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-protobuf/2.20.0",
+    "dest-filename": "jackson-dataformat-protobuf-2.20.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.20.0/jackson-dataformat-smile-2.20.0.pom",
+    "sha512": "89b1fcccf7acca45e3d51314c907e471399e713d35b8e2c57997724f275f3be820d041622117706b65adeca5672453c4fa934edf6f32b0111176a8b85913ea52",
+    "dest": "dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.20.0",
+    "dest-filename": "jackson-dataformat-smile-2.20.0.pom"
+  },
+  {
+    "type": "file",
     "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.20.0/jackson-base-2.20.0.pom",
     "sha512": "48b04551617900f59037f3df779af3b5bc88c0b582d7fa1098a284be422f7efc6b22fa8d9fec8190a0bdadaa38a51de8cb6ad72ab99dd8b01cf384ac6222a4a4",
     "dest": "dependencies/com/fasterxml/jackson/jackson-base/2.20.0",
