@@ -33,6 +33,7 @@
   <url type="bugtracker">https://github.com/Audiveris/audiveris/issues</url>
   <url type="help">https://audiveris.github.io/audiveris/_pages/handbook/</url>
   <url type="contact">https://github.com/Audiveris/audiveris/discussions</url>
+  <url type="vcs-browser">https://github.com/Audiveris/audiveris</url>
   <screenshots>
     <screenshot type="default">
       <image>https://github.com/Audiveris/docs/blob/master/images/Dichterliebe01.png</image>
