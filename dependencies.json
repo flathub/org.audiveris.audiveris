@@ -1093,6 +1093,20 @@
   },
   {
     "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar",
+    "sha512": "9b4963d049c735192a46216b392e5f718aa2441f4cb318f999188c0ac39b1a3da31e91da01cca7c6bb37772b4a3d9d8ca18ed719bad54d334da40161f49e2eb2",
+    "dest": "dependencies/net/java/dev/jna/jna/5.14.0",
+    "dest-filename": "jna-5.14.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.pom",
+    "sha512": "3214dcf8326fdf8f4f52af6b962d7728f4e4a638de00f046bd0994eb45050ae7bf1e42a304578735dfd72d9d1821d1b1e92c11de4a0e09cb6c9400f249bbbb1b",
+    "dest": "dependencies/net/java/dev/jna/jna/5.14.0",
+    "dest-filename": "jna-5.14.0.pom"
+  },
+  {
+    "type": "file",
     "url": "https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom",
     "sha512": "22fb9b68f57380088955b5526bfc382da87332202bb4741def44af2ec340240d8d2ad1283ffcab0433175fe35ab5540a503aaf9a2e44aad1de005c8915bfabe8",
     "dest": "dependencies/net/java/jvnet-parent/1",
