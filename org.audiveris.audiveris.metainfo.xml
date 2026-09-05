@@ -59,6 +59,31 @@
   <launchable type="desktop-id">org.audiveris.audiveris.desktop</launchable>
   <developer id="org.audiveris"><name>Hervé Bitteur et al.</name></developer>
   <releases>
+    <release version="5.11" date="2026-07-11" urgency="low" type="stable">
+      <description>
+	      <p>User Interface</p>
+	      <ul>
+	        <li>Support for a user personal shape set in the shape board</li>
+	        <li>Support for a configurable table of keyboard shortcuts</li>
+	      </ul>
+	     <p>Engine</p>
+	     <ul>
+	       <li>Added an L2 (Ridge) regularization to the implementation of the glyph classifier to prevent overfitting</li>
+	       <li>Better handling of staff lines with very different thicknesses</li>
+	       <li>Smarter staff line removal in case of crossing curves</li>
+	       <li>User option to link dynamics to staff above or below</li>
+	       <li>Enable HiDPI scaling on Linux Wayland</li>
+	       <li>Fix on window resizing issues</li>
+	       <li>Fix on parallel processing of multi-sheet books</li>
+	       <li>Fix on export of imperfect scans</li>
+	       <li>Fix on percussion/unknown clefs</li>
+	     </ul>
+       <p>Project</p>
+       <ul>
+         <li>Audiveris for Windows is now available on the Scoop Extras bucket</li>
+       </ul>
+    </description>
+    </release>
     <release version="5.10" date="2026-03-07" urgency="low" type="stable">
       <description>
 	      <p>User Interface</p>
