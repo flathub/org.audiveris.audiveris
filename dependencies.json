@@ -666,45 +666,45 @@
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.13.2/gson-parent-2.13.2.pom",
-    "sha512": "e6524dbb8aa13707fa51df7413a8b247a4de248812e212702e4e5888d0df29c6ebe39a3b1e09aefb12a1a095c42d19d074756a30918bfc4c1fe55c39b9a7c1fa",
-    "dest": "dependencies/com/google/code/gson/gson-parent/2.13.2",
-    "dest-filename": "gson-parent-2.13.2.pom"
+    "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.14.0/gson-parent-2.14.0.pom",
+    "sha512": "8f2498a254bcb6aa92563a3fdec533039055e1559a91a49be354b1cc4ffb39de2623a2c590308930d34eddf929567463baeafa0e91baf98c2bb0495260bba8d4",
+    "dest": "dependencies/com/google/code/gson/gson-parent/2.14.0",
+    "dest-filename": "gson-parent-2.14.0.pom"
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
-    "sha512": "8974a052656d2e5ec968b6bac2edf51413ffc62040fdc65f14f00597e738ab544d22487f8579ba90618b5a7f94ef33773510fac67b408fee6ed274b38f3d9947",
-    "dest": "dependencies/com/google/code/gson/gson/2.13.2",
-    "dest-filename": "gson-2.13.2.jar"
+    "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar",
+    "sha512": "d040d19a47ca2df33365493f9813a1d0a40b91685f7d87ca445b98d37b4c1b801314aef87940dc8b43dd1b0b96f6d5e6e4296778bf1af8dbfb1091425b37da21",
+    "dest": "dependencies/com/google/code/gson/gson/2.14.0",
+    "dest-filename": "gson-2.14.0.jar"
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.13.2/gson-2.13.2.pom",
-    "sha512": "c0d089089bf0d6bcfae008f329dcc2db2538d02654f8bc7690cb8db2ec94fe0d2aa069ac1d70a111a28cced0ffd7742ac8db29a884d64d9413ebf9b2af5dab82",
-    "dest": "dependencies/com/google/code/gson/gson/2.13.2",
-    "dest-filename": "gson-2.13.2.pom"
+    "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.14.0/gson-2.14.0.pom",
+    "sha512": "e4658b6de3de50bd47a79fe9ca7d6795d78e7d5223782db95ef23aaf4c5f878b81a09ef7096f9888d2e84e5d112ee437c9c85e9153c507b7c21bd6bd88dadb26",
+    "dest": "dependencies/com/google/code/gson/gson/2.14.0",
+    "dest-filename": "gson-2.14.0.pom"
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar",
-    "sha512": "e2eb4bf9f36f95a4d4c5ea344db5cd90a456e63bef8e52932b8f6f4ecfdd59cb2f6c2ce9e67b0070c82177e42885688b95afef591b16001f789b378f18afdf30",
-    "dest": "dependencies/com/google/errorprone/error_prone_annotations/2.41.0",
-    "dest-filename": "error_prone_annotations-2.41.0.jar"
+    "url": "https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.48.0/error_prone_annotations-2.48.0.jar",
+    "sha512": "1692b210d2b4c1d446da1d86ee787be1c3be56ee8c5f4274f20ef126b57c444a403464df7b9dfdf10bccbe7e0432247ecffe615fbc30d16be7a3282cb2556d34",
+    "dest": "dependencies/com/google/errorprone/error_prone_annotations/2.48.0",
+    "dest-filename": "error_prone_annotations-2.48.0.jar"
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.pom",
-    "sha512": "07bb0fc1b8659cd8c9ffb49563d4ec5f86bb30f5515eb6951e272de83e64670b0490f2e40b33ff6673f0d603719430c3378630478686d5849242028285204cdc",
-    "dest": "dependencies/com/google/errorprone/error_prone_annotations/2.41.0",
-    "dest-filename": "error_prone_annotations-2.41.0.pom"
+    "url": "https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.48.0/error_prone_annotations-2.48.0.pom",
+    "sha512": "4cb77580d42df91619e267b7e5080f45b6ef2b2a7f4bd25526d7682ca67eb4e50d8f53f92605fa997dca0f7082253192d02a2a5358fafcc2e05b60719ebc709e",
+    "dest": "dependencies/com/google/errorprone/error_prone_annotations/2.48.0",
+    "dest-filename": "error_prone_annotations-2.48.0.pom"
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/com/google/errorprone/error_prone_parent/2.41.0/error_prone_parent-2.41.0.pom",
-    "sha512": "ab85819cbab15554b3dbc1fd75eac6a13440178ee8c92a2b0fceeecac970f464d3aafc017842a2f7a692d15e7875389eb31ae9c0e08844990d7104f6c2f23f2a",
-    "dest": "dependencies/com/google/errorprone/error_prone_parent/2.41.0",
-    "dest-filename": "error_prone_parent-2.41.0.pom"
+    "url": "https://plugins.gradle.org/m2/com/google/errorprone/error_prone_parent/2.48.0/error_prone_parent-2.48.0.pom",
+    "sha512": "e8d1088ae2fa57b87a117649bfe32a625c17b151fc793e460f94d13c913e5998df2b48e18e4b1d3da640fdfd62c4729fed429eda48d1f8d2437b5c798f7e5729",
+    "dest": "dependencies/com/google/errorprone/error_prone_parent/2.48.0",
+    "dest-filename": "error_prone_parent-2.48.0.pom"
   },
   {
     "type": "file",
@@ -939,31 +939,31 @@
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/io.github.jwharm.flatpak-gradle-generator.gradle.plugin/1.7.0/io.github.jwharm.flatpak-gradle-generator.gradle.plugin-1.7.0.pom",
-    "sha512": "fba54b6f68e32382288201b0a360a6ba34f5a24bfc2f6ced503384f1bf67de2ca5c4f417a91616c2da591d185202d0c58acee2ea3a1ed2a8810011cdc1fe5056",
-    "dest": "dependencies/io/github/jwharm/flatpak-gradle-generator/io.github.jwharm.flatpak-gradle-generator.gradle.plugin/1.7.0",
-    "dest-filename": "io.github.jwharm.flatpak-gradle-generator.gradle.plugin-1.7.0.pom"
+    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/io.github.jwharm.flatpak-gradle-generator.gradle.plugin/1.8.0/io.github.jwharm.flatpak-gradle-generator.gradle.plugin-1.8.0.pom",
+    "sha512": "480267b2b3070b8bd2f9e606bb6820e8b089df8dc197ae89e0d98c152cb0688c1f2e7a009bc2d9aead20415c621563e0f0d9dc278284e0d95c9a90788f401d10",
+    "dest": "dependencies/io/github/jwharm/flatpak-gradle-generator/io.github.jwharm.flatpak-gradle-generator.gradle.plugin/1.8.0",
+    "dest-filename": "io.github.jwharm.flatpak-gradle-generator.gradle.plugin-1.8.0.pom"
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/plugin/1.7.0/plugin-1.7.0.jar",
-    "sha512": "1fd33596f12f7f2e30e0a59db804cc1a65326b711f5bc8eafccaaf6bee495a33971354d58b17173f5a3f8053f2240e34146ca8e02f230b3319f2d22f5225b8fb",
-    "dest": "dependencies/io/github/jwharm/flatpak-gradle-generator/plugin/1.7.0",
-    "dest-filename": "plugin-1.7.0.jar"
+    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/plugin/1.8.0/plugin-1.8.0.jar",
+    "sha512": "389cea14fc72f64f341b2bbc921b876590feff5636b806f2972f971c807bec306282b3cd9d694003eac988c4d418a63a1ec756118df0eebdc2832e918f16b963",
+    "dest": "dependencies/io/github/jwharm/flatpak-gradle-generator/plugin/1.8.0",
+    "dest-filename": "plugin-1.8.0.jar"
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/plugin/1.7.0/plugin-1.7.0.module",
-    "sha512": "4b0865f472199aa42925b39bed7e211e67ca935c4a5e6598d46cc5da313e91a2de6f6d0c775c06b6c79e01d46ab4f44d67ad4d1e5201efd9086d1cccba8e8bad",
-    "dest": "dependencies/io/github/jwharm/flatpak-gradle-generator/plugin/1.7.0",
-    "dest-filename": "plugin-1.7.0.module"
+    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/plugin/1.8.0/plugin-1.8.0.module",
+    "sha512": "e0741c62d068830df72a169733a9cce8a1d4876cd0586d9fc93e3ec60f3bb8291ced113dbe1474ad87707ede2904da507885ffcd5e12e20786a809b9d267f6d7",
+    "dest": "dependencies/io/github/jwharm/flatpak-gradle-generator/plugin/1.8.0",
+    "dest-filename": "plugin-1.8.0.module"
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/plugin/1.7.0/plugin-1.7.0.pom",
-    "sha512": "ecc20ed5e412a877d83ecf394e55376492535831d3237f348566bed8fcd31154641e74e4a4f5e841171069be83ef8f53e18dcddaffef3c8847b8ae2a75dd0a49",
-    "dest": "dependencies/io/github/jwharm/flatpak-gradle-generator/plugin/1.7.0",
-    "dest-filename": "plugin-1.7.0.pom"
+    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/plugin/1.8.0/plugin-1.8.0.pom",
+    "sha512": "8b4a36b3e2f1435bd18007abc2e10b893ea720de661338d7fecec0fdaae54263160defe844951a6a9c7e719c86712b8e8c3ca4bae69940ab278b0c606c5bc5b1",
+    "dest": "dependencies/io/github/jwharm/flatpak-gradle-generator/plugin/1.8.0",
+    "dest-filename": "plugin-1.8.0.pom"
   },
   {
     "type": "file",
@@ -1352,80 +1352,80 @@
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.5.12/javacpp-presets-1.5.12.pom",
-    "sha512": "eeb9fa45d3bca03e92bc1bd06c46d67143d8113a3f4613824d13435192f4ecb572aa87cbea09b9e012515c727c95c7b24b2bbbb55f1146193f0014534a89db97",
-    "dest": "dependencies/org/bytedeco/javacpp-presets/1.5.12",
-    "dest-filename": "javacpp-presets-1.5.12.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.5.13/javacpp-presets-1.5.13.pom",
+    "sha512": "298535a62c9b17f6b0f0306e9724e19a07fa0da9b2dbc1260249f11baea2508cc6d3d790a9a10205146b6d0c18467b126a59168e4318fac0e476ad884551ba51",
+    "dest": "dependencies/org/bytedeco/javacpp-presets/1.5.13",
+    "dest-filename": "javacpp-presets-1.5.13.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.5.12/javacpp-1.5.12.jar",
-    "sha512": "db359aeb88850edd206bd428ea16ba38afa35308008021d6ba2d843115c5f4863362c437d6bd7fbdf31809b76f76047aeaaa7d5ff1a9a3e1f62769292878e1bf",
-    "dest": "dependencies/org/bytedeco/javacpp/1.5.12",
-    "dest-filename": "javacpp-1.5.12.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.5.13/javacpp-1.5.13.jar",
+    "sha512": "c1eefa03bc0074cd6d41ab051959697a402ebefb0177d8115ee678f3593db47c0a53c1ea33817824ce8ef66a3e2491db163f954ae540eedd4478bb8331a949f4",
+    "dest": "dependencies/org/bytedeco/javacpp/1.5.13",
+    "dest-filename": "javacpp-1.5.13.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.5.12/javacpp-1.5.12.pom",
-    "sha512": "788b4e56cc153eba75d7ce3189d3fb5b1902559ba7eacd47fcfe2c53ef2b0e7323cd86635f612655dde3d217eab63f954b8cbb00268a22de9d6e6c653fa43b79",
-    "dest": "dependencies/org/bytedeco/javacpp/1.5.12",
-    "dest-filename": "javacpp-1.5.12.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.5.13/javacpp-1.5.13.pom",
+    "sha512": "a741ca0bcde43bcfa039a9db9cfaf93abf8d1f9c95ae2237ee6f05418f7cc395738812dc8a9ce883f12e4639abd5d4ef68dbeb86b8bc6f7d9b63261c5e051b4e",
+    "dest": "dependencies/org/bytedeco/javacpp/1.5.13",
+    "dest-filename": "javacpp-1.5.13.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.85.0-1.5.12/leptonica-1.85.0-1.5.12-linux-arm64.jar",
-    "sha512": "144afdf5c5c77a76358817b1c5517500a86ad1005cc38f424daea76282b0676bd395db80efdc215d87e0552041db31a76d4b14eb0241ba63ad61689bdc9bd266",
-    "dest": "dependencies/org/bytedeco/leptonica/1.85.0-1.5.12",
-    "dest-filename": "leptonica-1.85.0-1.5.12-linux-arm64.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13-linux-arm64.jar",
+    "sha512": "2e0f4ec4631862ff7fec4b0c4cefbea1a43457e46f4a604972b0e602fd431bd0ebfdfc0a0ed0688d456cb1c1d0362d80ef6479e8d558921eaaf39358d24d999f",
+    "dest": "dependencies/org/bytedeco/leptonica/1.87.0-1.5.13",
+    "dest-filename": "leptonica-1.87.0-1.5.13-linux-arm64.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.85.0-1.5.12/leptonica-1.85.0-1.5.12-linux-x86_64.jar",
-    "sha512": "021cb20e06c1718f7e3aca80281d7af17d327d527f825d796e1fff8ce0f7a0d85cc338526558732cfc5bb6cd40b689da133b6df1d4cd161015f5473c7fbf819c",
-    "dest": "dependencies/org/bytedeco/leptonica/1.85.0-1.5.12",
-    "dest-filename": "leptonica-1.85.0-1.5.12-linux-x86_64.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13-linux-x86_64.jar",
+    "sha512": "b1adb8317a5a361a49b26d4ba7da3a6113d3864277cd7ea92b84c40ec59506792d5e12830dd76f4490fe5a814542c9c342294441e9ce08eab6859fcdc30c0edb",
+    "dest": "dependencies/org/bytedeco/leptonica/1.87.0-1.5.13",
+    "dest-filename": "leptonica-1.87.0-1.5.13-linux-x86_64.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.85.0-1.5.12/leptonica-1.85.0-1.5.12.jar",
-    "sha512": "848a026d2be04b8ac156215cf1d6c94455ae944d8e13b611a59d356367e8056c1038b4f27e3e2035e7a3f60d6873ba70cd1fe098347a2ee524026ce62e216a45",
-    "dest": "dependencies/org/bytedeco/leptonica/1.85.0-1.5.12",
-    "dest-filename": "leptonica-1.85.0-1.5.12.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13.jar",
+    "sha512": "5e0ccee11890ee3d794f1befb740b42ca9710f63bbd5dc81c0622abbb23e05d07a306e40bef8635479a955dde556f086b05c6a7aaddeb00a0d21c0dd66f6e87c",
+    "dest": "dependencies/org/bytedeco/leptonica/1.87.0-1.5.13",
+    "dest-filename": "leptonica-1.87.0-1.5.13.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.85.0-1.5.12/leptonica-1.85.0-1.5.12.pom",
-    "sha512": "3556bf75bc1e9ce4e952e4b066f7560fd8fc4b670013e4a553fa7f3f8912a75fa051af317f2c3b28a071fca9323d7837dfa397ec6671b799edc1d42dc4adaace",
-    "dest": "dependencies/org/bytedeco/leptonica/1.85.0-1.5.12",
-    "dest-filename": "leptonica-1.85.0-1.5.12.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13.pom",
+    "sha512": "72cd754aefcaeb74345bf0c0b1dc73416e4ef954b5a6c014d44e473fb1a1539c80697f9c50de753fdd96f166caf9744cbdab98793103dd312383e808948734e4",
+    "dest": "dependencies/org/bytedeco/leptonica/1.87.0-1.5.13",
+    "dest-filename": "leptonica-1.87.0-1.5.13.pom"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.1-1.5.12/tesseract-5.5.1-1.5.12-linux-arm64.jar",
-    "sha512": "11ba234b8f6a57d1e11b7986df4fd5457f9e48e9803dd90c9e68570505aef91f6491156a69055b5849d358e7a4b05b8d6108d2d10915d3e631f6d59260851e3c",
-    "dest": "dependencies/org/bytedeco/tesseract/5.5.1-1.5.12",
-    "dest-filename": "tesseract-5.5.1-1.5.12-linux-arm64.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13-linux-arm64.jar",
+    "sha512": "516e28e76018c99e853ea53f225b3b43706828bd7f326c6a01a9831ac453818277835917da5960b97fe619bc3c895a9c77788a8ae9faae6793f1053ceb34073a",
+    "dest": "dependencies/org/bytedeco/tesseract/5.5.2-1.5.13",
+    "dest-filename": "tesseract-5.5.2-1.5.13-linux-arm64.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.1-1.5.12/tesseract-5.5.1-1.5.12-linux-x86_64.jar",
-    "sha512": "ffde4c0bb38e4f13b5148bea1786742f63cbb9a9960718d072c0a0b7e0326272fb994df7be53a69a82b2ab16e4f248813b290f833ffb39b9d36df7452a8362e7",
-    "dest": "dependencies/org/bytedeco/tesseract/5.5.1-1.5.12",
-    "dest-filename": "tesseract-5.5.1-1.5.12-linux-x86_64.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13-linux-x86_64.jar",
+    "sha512": "56888fd734470ddf7337200120c8ab868ebb5c3427045fbb90377e0007e1e10848bc887b4f816c66cd57dff7bd690463c1b3a5bdac5c44d5baf9d9a756cdd897",
+    "dest": "dependencies/org/bytedeco/tesseract/5.5.2-1.5.13",
+    "dest-filename": "tesseract-5.5.2-1.5.13-linux-x86_64.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.1-1.5.12/tesseract-5.5.1-1.5.12.jar",
-    "sha512": "6435681adacc9e2e48434859d9f8c60498ffbdd9043ecbb864f12e9e3ee6e0950bd30546da6d442fa95b8a6aaf4f6aa31611b5f2327c12eae8e9d049e0fa4065",
-    "dest": "dependencies/org/bytedeco/tesseract/5.5.1-1.5.12",
-    "dest-filename": "tesseract-5.5.1-1.5.12.jar"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13.jar",
+    "sha512": "755b33035985bece57bb6b0c6412f4d8f5755ee1e945efb49b51835a7f79b045f278af8bd53c6abaef5a33cfb8ca1fc1ae5c809981186dbb77224cbd51164e6c",
+    "dest": "dependencies/org/bytedeco/tesseract/5.5.2-1.5.13",
+    "dest-filename": "tesseract-5.5.2-1.5.13.jar"
   },
   {
     "type": "file",
-    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.1-1.5.12/tesseract-5.5.1-1.5.12.pom",
-    "sha512": "44b9bd7cc35bd67661be72f9c2ea8ffbe90699136fb4d0cd508eaee0dcec84c6ba89348b2668b60efdd28087cabd5cf4aee067ab1f412221da5a7761d25a2f33",
-    "dest": "dependencies/org/bytedeco/tesseract/5.5.1-1.5.12",
-    "dest-filename": "tesseract-5.5.1-1.5.12.pom"
+    "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13.pom",
+    "sha512": "9f7e71a458af972e4d6847c5ae06846f6cd4ddc78f77f323e606e5233e5983160d92df204b217ef367e111a7c3cac252f68c3f384b233fcd5644096fda8541ae",
+    "dest": "dependencies/org/bytedeco/tesseract/5.5.2-1.5.13",
+    "dest-filename": "tesseract-5.5.2-1.5.13.pom"
   },
   {
     "type": "file",
